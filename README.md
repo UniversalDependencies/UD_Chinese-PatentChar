@@ -1,41 +1,25 @@
 # Summary
+A treebank of Chinese patent application texts collected from the Chinese patent office's website CNIPA.
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
-
+The sentences are randomly selected from the patent claims of the IPC section "G" from November 2017 to September 2018.
 
 # Introduction
-
-...
-
-
-# Acknowledgments
-
-...
-
-## References
-
-* (citation)
-
-
-# Changelog
-
-* 2022-11-15 v2.11
-  * Initial release in Universal Dependencies.
-
+The syntactic analysis is originally done in SUD on the character level under the name SUD_Chinese-PatentChar. See SUD Guidelines : https://surfacesyntacticud.github.io/guidelines/u/
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.11
-License: CC BY-SA 4.0
+License: CC BY-NC-SA 3.0
 Includes text: yes
-Genre: legal
-Lemmas: manual native
-UPOS: manual native
-XPOS: not available
-Features: manual native
-Relations: manual native
-Contributors: Li, Yixuan; Guillaume, Bruno; Gerdes, Kim
-Contributing: here
-Contact: kim@gerdes.fr
+Genre: patent application claims
+Lemmas: NA
+UPOS: manual annotation
+XPOS: NA
+Features: manual annotation
+Relations: converted from a SUD annotation on the character level by Grew grammar rules
+Contributors: Li, Yixuan; Gerdes, Kim; Gillaume, Bruno
+Contributing: elsewhere
+Contact: li.yixuan727@gmail.com
 ===============================================================================
 </pre>
+
