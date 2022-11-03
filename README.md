@@ -10,11 +10,6 @@ The sentences are randomly selected from the patent claims of the IPC section "G
 The syntactic analysis is originally done in SUD on the character level under the name SUD_Chinese-PatentChar. See SUD Guidelines : https://surfacesyntacticud.github.io/guidelines/u/
 
 
-# Acknowledgments
-
-
-
-
 # Changelog
 
 * 2022-11-15 v2.11
