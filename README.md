@@ -30,7 +30,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: converted from manual
-Contributors: Li, Yixuan; Gerdes, Kim; Gillaume, Bruno
+Contributors: Li, Yixuan; Gerdes, Kim; Guillaume, Bruno
 Contributing: elsewhere
 Contact: li.yixuan727@gmail.com
 ===============================================================================
