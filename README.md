@@ -1,23 +1,15 @@
 # Summary
-
 A treebank of Chinese patent application texts collected from the Chinese patent office's website CNIPA.
-
-
-
-# Introduction
 
 The sentences are randomly selected from the patent claims of the IPC section "G" from November 2017 to September 2018.
 
+# Introduction
 The syntactic analysis is originally done in SUD on the character level under the name SUD_Chinese-PatentChar. See SUD Guidelines : https://surfacesyntacticud.github.io/guidelines/u/
-
-
 
 # Changelog
 
 * 2022-11-15 v2.11
   * Initial release in Universal Dependencies.
-
-
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
