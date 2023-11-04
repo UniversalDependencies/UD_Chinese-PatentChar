@@ -5,58 +5,61 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>100</sentences><tokens>2160</tokens><words>2160</words><fused>0</fused></total>
+    <total><sentences>200</sentences><tokens>4784</tokens><words>4784</words><fused>0</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>100</sentences><tokens>2160</tokens><words>2160</words><fused>0</fused></test>
+    <test><sentences>200</sentences><tokens>4784</tokens><words>4784</words><fused>0</fused></test>
   </size>
   <lemmas unique="0" /><!--  -->
-  <forms unique="428" /><!-- 的, ，, 所述, ；, 第一, 和, 触控, 根据, 、, 数据, 单元, 包括, 中, 位置, 特征 -->
+  <forms unique="671" /><!-- 的, ，, 所述, ；, 于, 数据, 在, 第一, 根据, 信息, 包括, 中, 。, 其, 特征 -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">212</tag><!-- _ -->
-    <tag name="ADP">110</tag><!-- _ -->
-    <tag name="ADV">25</tag><!-- _ -->
-    <tag name="AUX">22</tag><!-- _ -->
-    <tag name="CCONJ">54</tag><!-- _ -->
-    <tag name="DET">8</tag><!-- _ -->
-    <tag name="NOUN">720</tag><!-- _ -->
-    <tag name="NUM">102</tag><!-- _ -->
-    <tag name="PART">195</tag><!-- _ -->
-    <tag name="PRON">19</tag><!-- _ -->
-    <tag name="PROPN">49</tag><!-- _ -->
-    <tag name="PUNCT">255</tag><!-- _ -->
-    <tag name="SCONJ">3</tag><!-- _ -->
-    <tag name="VERB">371</tag><!-- _ -->
-    <tag name="X">15</tag><!-- _ -->
+    <tag name="ADJ">474</tag><!-- _ -->
+    <tag name="ADP">259</tag><!-- _ -->
+    <tag name="ADV">68</tag><!-- _ -->
+    <tag name="AUX">6</tag><!-- _ -->
+    <tag name="CCONJ">106</tag><!-- _ -->
+    <tag name="DET">39</tag><!-- _ -->
+    <tag name="NOUN">1661</tag><!-- _ -->
+    <tag name="NUM">185</tag><!-- _ -->
+    <tag name="PART">346</tag><!-- _ -->
+    <tag name="PRON">48</tag><!-- _ -->
+    <tag name="PROPN">60</tag><!-- _ -->
+    <tag name="PUNCT">560</tag><!-- _ -->
+    <tag name="SCONJ">10</tag><!-- _ -->
+    <tag name="VERB">948</tag><!-- _ -->
+    <tag name="X">14</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="22">
-    <dep name="acl">137</dep>
-    <dep name="advcl">37</dep>
-    <dep name="advmod">36</dep>
-    <dep name="amod">179</dep>
-    <dep name="appos">17</dep>
-    <dep name="case">213</dep>
-    <dep name="cc">49</dep>
-    <dep name="ccomp">79</dep>
-    <dep name="conj">80</dep>
-    <dep name="csubj">1</dep>
-    <dep name="dep">53</dep>
-    <dep name="goeswith">1</dep>
-    <dep name="mark">53</dep>
-    <dep name="nmod">368</dep>
-    <dep name="nsubj">92</dep>
-    <dep name="nummod">71</dep>
-    <dep name="obj">134</dep>
-    <dep name="obl">117</dep>
-    <dep name="obl:arg">36</dep>
-    <dep name="parataxis">52</dep>
-    <dep name="punct">255</dep>
-    <dep name="root">100</dep>
+  <deps unique="25">
+    <dep name="acl">366</dep>
+    <dep name="advcl">102</dep>
+    <dep name="advmod">81</dep>
+    <dep name="amod">393</dep>
+    <dep name="appos">23</dep>
+    <dep name="aux">4</dep>
+    <dep name="case">387</dep>
+    <dep name="cc">102</dep>
+    <dep name="ccomp">140</dep>
+    <dep name="compound:vv">39</dep>
+    <dep name="conj">137</dep>
+    <dep name="csubj">7</dep>
+    <dep name="dep">76</dep>
+    <dep name="det">6</dep>
+    <dep name="mark">188</dep>
+    <dep name="nmod">746</dep>
+    <dep name="nsubj">212</dep>
+    <dep name="nummod">146</dep>
+    <dep name="obj">359</dep>
+    <dep name="obl">310</dep>
+    <dep name="obl:arg">57</dep>
+    <dep name="parataxis">138</dep>
+    <dep name="punct">560</dep>
+    <dep name="root">200</dep>
+    <dep name="xcomp">5</dep>
   </deps>
 </treebank>
