@@ -8,6 +8,9 @@ The syntactic analysis is originally done in SUD on the character level under th
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Original annotation in mSUD (https://github.com/surfacesyntacticud/mSUD_Chinese-PatentChar), see LREC-COLING 2024 paper: [Joint Annotation of Morphology and Syntax in Dependency Treebanks](https://inria.hal.science/hal-04550108)
+
 * 2022-11-15 v2.11
   * Initial release in Universal Dependencies.
 
