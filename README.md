@@ -19,6 +19,7 @@ The syntactic analysis is originally done in SUD on the character level under th
 Data available since: UD v2.11
 License: CC BY-NC-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: legal
 Lemmas: not available
 UPOS: manual native
