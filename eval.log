@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Chinese-PatentChar:
-commit cd7f6420ca8364829bddcb3eb474cc2ff31175f5
-Merge: 5268915 4ad628a
+commit d59c4ca9f193c8fa36f40d01f5237a69c260bc4e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 18:56:49 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'zh_patentchar'
 Language code (from CoNLL-U file name) = 'zh'
@@ -25,17 +25,17 @@ Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang zh --max-err=10 UD_Chinese-PatentChar/zh_patentchar-ud-test.conllu
-[Line 150 Sent zh_patentchar-sud-test__8]: [L3 Syntax too-many-objects] Multiple direct objects [17, 19] ('压力 yā_lì', '到 dào') under the predicate '施加 shī_jiā'.
-[Line 543 Sent zh_patentchar-sud-test__18]: [L3 Syntax too-many-objects] Multiple direct objects [17, 25] ('信息 xìn_xī', '信息 xìn_xī') under the predicate '作为 zuò_wèi'.
-[Line 1135 Sent zh_patentchar-sud-test__43]: [L3 Syntax too-many-objects] Multiple direct objects [19, 29] ('参数 cān_shù', '模型 mó_xíng') under the predicate '带入 dài_rù'.
-[Line 2375 Sent zh_patentchar-sud-test__83]: [L3 Syntax too-many-objects] Multiple direct objects [28, 37] ('面积 miàn_jī', '数据 shù_jù') under the predicate '统计 tǒng_jì'.
-[Line 3123 Sent zh_patentchar-sud-test__105]: [L3 Syntax too-many-objects] Multiple direct objects [17, 26] ('方案 fāng_àn', '模型 mó_xíng') under the predicate '作为 zuò_wèi'.
-[Line 4896 Sent zh_patentchar-sud-test__175]: [L3 Syntax too-many-objects] Multiple direct objects [3, 6] ('数据 shù_jù', '时间戳 shí_jiān_chuō') under the predicate '添加 tiān_jiā'.
-[Line 4921 Sent zh_patentchar-sud-test__176]: [L3 Syntax too-many-objects] Multiple direct objects [10, 17] ('时间戳 shí_jiān_chuō', '时间戳 shí_jiān_chuō') under the predicate '小于 xiǎo_yú'.
-[Line 5026 Sent zh_patentchar-sud-test__179]: [L3 Syntax too-many-objects] Multiple direct objects [18, 21] ('数据 shù_jù', '时间戳 shí_jiān_chuō') under the predicate '添加 tiān_jiā'.
-[Line 5068 Sent zh_patentchar-sud-test__181]: [L3 Syntax too-many-objects] Multiple direct objects [10, 13] ('数据 shù_jù', '时间戳 shí_jiān_chuō') under the predicate '添加 tiān_jiā'.
-[Line 5139 Sent zh_patentchar-sud-test__184]: [L3 Syntax too-many-objects] Multiple direct objects [11, 14] ('其 qí', '分析 fēn_xī') under the predicate '进行 jìn_xíng'.
-Syntax errors: 10
+[Line 150 Sent zh_patentchar-sud-test__8]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 19] ('压力 yā_lì', '到 dào') under the predicate '施加 shī_jiā'.
+[Line 543 Sent zh_patentchar-sud-test__18]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 25] ('信息 xìn_xī', '信息 xìn_xī') under the predicate '作为 zuò_wèi'.
+[Line 1135 Sent zh_patentchar-sud-test__43]: [L3 SYNTAX too-many-objects] Multiple direct objects [19, 29] ('参数 cān_shù', '模型 mó_xíng') under the predicate '带入 dài_rù'.
+[Line 2375 Sent zh_patentchar-sud-test__83]: [L3 SYNTAX too-many-objects] Multiple direct objects [28, 37] ('面积 miàn_jī', '数据 shù_jù') under the predicate '统计 tǒng_jì'.
+[Line 3123 Sent zh_patentchar-sud-test__105]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 26] ('方案 fāng_àn', '模型 mó_xíng') under the predicate '作为 zuò_wèi'.
+[Line 4896 Sent zh_patentchar-sud-test__175]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 6] ('数据 shù_jù', '时间戳 shí_jiān_chuō') under the predicate '添加 tiān_jiā'.
+[Line 4921 Sent zh_patentchar-sud-test__176]: [L3 SYNTAX too-many-objects] Multiple direct objects [10, 17] ('时间戳 shí_jiān_chuō', '时间戳 shí_jiān_chuō') under the predicate '小于 xiǎo_yú'.
+[Line 5026 Sent zh_patentchar-sud-test__179]: [L3 SYNTAX too-many-objects] Multiple direct objects [18, 21] ('数据 shù_jù', '时间戳 shí_jiān_chuō') under the predicate '添加 tiān_jiā'.
+[Line 5068 Sent zh_patentchar-sud-test__181]: [L3 SYNTAX too-many-objects] Multiple direct objects [10, 13] ('数据 shù_jù', '时间戳 shí_jiān_chuō') under the predicate '添加 tiān_jiā'.
+[Line 5139 Sent zh_patentchar-sud-test__184]: [L3 SYNTAX too-many-objects] Multiple direct objects [11, 14] ('其 qí', '分析 fēn_xī') under the predicate '进行 jìn_xíng'.
+SYNTAX errors: 10
 *** FAILED *** with 10 errors
 Exit code: 1
 Validity: 0.01
