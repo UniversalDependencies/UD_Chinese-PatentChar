@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Chinese-PatentChar:
-commit d59c4ca9f193c8fa36f40d01f5237a69c260bc4e
+commit 410cfb6f0ac3ba7d16157fb30d8e56e9a8aadf79
+Merge: 28483f2 666be02
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 18:56:49 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'zh_patentchar'
 Language code (from CoNLL-U file name) = 'zh'
@@ -25,20 +25,8 @@ Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang zh --max-err=10 UD_Chinese-PatentChar/zh_patentchar-ud-test.conllu
-[Line 150 Sent zh_patentchar-sud-test__8]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 19] ('压力 yā_lì', '到 dào') under the predicate '施加 shī_jiā'.
-[Line 543 Sent zh_patentchar-sud-test__18]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 25] ('信息 xìn_xī', '信息 xìn_xī') under the predicate '作为 zuò_wèi'.
-[Line 1135 Sent zh_patentchar-sud-test__43]: [L3 SYNTAX too-many-objects] Multiple direct objects [19, 29] ('参数 cān_shù', '模型 mó_xíng') under the predicate '带入 dài_rù'.
-[Line 2375 Sent zh_patentchar-sud-test__83]: [L3 SYNTAX too-many-objects] Multiple direct objects [28, 37] ('面积 miàn_jī', '数据 shù_jù') under the predicate '统计 tǒng_jì'.
-[Line 3123 Sent zh_patentchar-sud-test__105]: [L3 SYNTAX too-many-objects] Multiple direct objects [17, 26] ('方案 fāng_àn', '模型 mó_xíng') under the predicate '作为 zuò_wèi'.
-[Line 4896 Sent zh_patentchar-sud-test__175]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 6] ('数据 shù_jù', '时间戳 shí_jiān_chuō') under the predicate '添加 tiān_jiā'.
-[Line 4921 Sent zh_patentchar-sud-test__176]: [L3 SYNTAX too-many-objects] Multiple direct objects [10, 17] ('时间戳 shí_jiān_chuō', '时间戳 shí_jiān_chuō') under the predicate '小于 xiǎo_yú'.
-[Line 5026 Sent zh_patentchar-sud-test__179]: [L3 SYNTAX too-many-objects] Multiple direct objects [18, 21] ('数据 shù_jù', '时间戳 shí_jiān_chuō') under the predicate '添加 tiān_jiā'.
-[Line 5068 Sent zh_patentchar-sud-test__181]: [L3 SYNTAX too-many-objects] Multiple direct objects [10, 13] ('数据 shù_jù', '时间戳 shí_jiān_chuō') under the predicate '添加 tiān_jiā'.
-[Line 5139 Sent zh_patentchar-sud-test__184]: [L3 SYNTAX too-many-objects] Multiple direct objects [11, 14] ('其 qí', '分析 fēn_xī') under the predicate '进行 jìn_xíng'.
-SYNTAX errors: 10
-*** FAILED *** with 10 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.111111111111111) * (score{features}=0.01) = 0.00111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
@@ -46,6 +34,6 @@ Validity: 0.01
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
 (weight=0.111111111111111) * (score{udeprels}=0.518918918918919) = 0.0576576576576577
-(TOTAL score=0.248757511736568) * (availability=1) * (validity=0.01) = 0.00248757511736568
-STARS = 0
-UD_Chinese-PatentChar	0.00248757511736568	0
+(TOTAL score=0.248757511736568) * (availability=1) * (validity=1) = 0.248757511736568
+STARS = 1
+UD_Chinese-PatentChar	0.248757511736568	1
