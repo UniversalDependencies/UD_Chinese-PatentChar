@@ -36,27 +36,27 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="25">
-    <dep name="acl">366</dep>
+    <dep name="acl">364</dep>
     <dep name="advcl">102</dep>
     <dep name="advmod">81</dep>
     <dep name="amod">393</dep>
     <dep name="appos">23</dep>
     <dep name="aux">4</dep>
-    <dep name="case">387</dep>
+    <dep name="case">352</dep>
     <dep name="cc">102</dep>
-    <dep name="ccomp">140</dep>
+    <dep name="ccomp">142</dep>
     <dep name="compound:vv">39</dep>
     <dep name="conj">137</dep>
     <dep name="csubj">7</dep>
-    <dep name="dep">76</dep>
+    <dep name="dep">88</dep>
     <dep name="det">6</dep>
-    <dep name="mark">188</dep>
+    <dep name="mark">218</dep>
     <dep name="nmod">746</dep>
     <dep name="nsubj">212</dep>
     <dep name="nummod">146</dep>
-    <dep name="obj">359</dep>
+    <dep name="obj">348</dep>
     <dep name="obl">310</dep>
-    <dep name="obl:arg">57</dep>
+    <dep name="obl:arg">61</dep>
     <dep name="parataxis">138</dep>
     <dep name="punct">560</dep>
     <dep name="root">200</dep>
